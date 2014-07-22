@@ -1,10 +1,16 @@
-# Style guides (or pattern libraries)
+# Style guides (a.k.a. pattern libraries, templates)
 
-Style guide discussion for SRCCON 2014.
+Notes for style guide discussion for SRCCON 2014.
 
 ## What is a style guide?
 
-At it's face value, the "style guide" is fairly straightforward; a style guide creates standards and best practices for styling.  But there are two main questions to think about when defining what a style guide is.  The style of what?  And, how are standards and best practices transferred or communicated?
+This is my own definition.
+
+A style guide creates standards and best practices for a system or set of decisions that are otherwise subjective.
+
+To note, "style" does not mean that the decisions are visual, it means that the decision that is made is subjective and based on opinion or style.
+
+There are two main questions to think about when defining what a style guide is.  The style of what system or set of decisions?  And, how are standards and best practices transferred or communicated?
 
 [Wikipedia article about style guides](http://en.wikipedia.org/wiki/Style_guide)
 
@@ -19,6 +25,7 @@ There are many different possibilities of what it is that is being styled.
 * tone
 * visualizations
 * interactives
+* project management
 
 ### Medium of the guide
 
@@ -27,6 +34,7 @@ How these best practices and standards are communicated can vary as well.
 * narrative
 * code
 * specifications
+* generative
 
 ## Pros and cons
 
@@ -44,16 +52,22 @@ How these best practices and standards are communicated can vary as well.
 * Takes time to create.
 * Takes time to maintain.
 * May limit creativity.
+* Requires expertise.
 
 ## Examples
+
+This is not an exhaustive list.
+
+### News
 
 News interface examples:
 
 * [MinnPost styles](http://code.minnpost.com/minnpost-styles/): CSS and JS framework for data/interactive pieces.
-* [Sunlight Labs Data Visualization guide](http://design.sunlightlabs.com/projects/Sunlight-StyleGuide-DataViz.pdf): CSS-ish guide to data visualization such as charts and maps.
 * [Dallas Morning News graphics stylebook](https://knightcenter.utexas.edu/mooc/file/tdmn_graphics.pdf): Narrative with explicit values on how to make graphics, includes charts and maps; preumably this is for print and web.  Also includes a bit about workflow of how graphics are made as well as maps of the building and where different departments are.
 * [Chicago Tribune style guide](http://newsapps.github.io/bootstrap/styleguide/): A CSS and JS framework, altered from Bootstrap for the Newsapps team's pieces.
-* [NPR best practices](https://github.com/nprapps/bestpractices): A set of best practice documents for project workflow, versioning, and coding for the NPR Visuals team.  Tied closely to their [app-template](https://github.com/nprapps/app-template).
+* [Knight lab style guide (Blueline)](http://blueline.knightlab.com/): Web interface style guide.
+* [WNYC style guide](http://wnyc.github.io/): (experimental) Web interface style guide.
+* [KPCC Style Guide](https://github.com/SCPR/scpr-styleguide): Looks to be a web interface style guide, but not actually public anywhere.
 * [BBC Global Experience Language (GEL)](http://www.bbc.co.uk/gel): A set of interface and copy guidelines for all digital mediums.
 
 News copy examples:
@@ -61,13 +75,28 @@ News copy examples:
 * [Associated Press Stylebook](https://www.apstylebook.com/):  Copy style guide (reusable and for sale).
 * [New York Times Manual of Style and Usage](http://en.wikipedia.org/wiki/The_New_York_Times_Manual_of_Style_and_Usage): Copy style guide (reusable and for sale).
 * [The Wall Street Journal Guide to Business Style and Usage](http://amazon.com/Street-Journal-Guide-Business-Guides/dp/0743212959): Copy style guide as well as glossary/reference for business terms.
-* [BBC style guide](http://www2.media.uoa.gr/lectures/linguistic_archives/academic_papers0506/notes/stylesheets_3.pdf): Copy and tone style guide with a heavy hand of the why for style decisions.
+* [BBC News style guide](http://www.bbc.co.uk/academy/journalism/news-style-guide): Copy and grammar guide.
+    * An older [BBC style guide](http://www2.media.uoa.gr/lectures/linguistic_archives/academic_papers0506/notes/stylesheets_3.pdf): Copy and tone style guide with a heavy hand of the why for style decisions.
 * [Economist style guide](http://www.economist.com/styleguide/introduction): Copy and tone style guide.
 * [Guardian style guide](http://www.theguardian.com/guardian-observer-style-guide-a): Glossary style copy guide.
+* [Telegraph style book](http://www.telegraph.co.uk/topics/about-us/style-book/): Grammar and copy style guide by topic and glossary.
+
+News code examples:
+
+* [NYT Objective-C style guide](https://github.com/NYTimes/objective-c-style-guide): Code style guide.
+
+News code project templates:
+
+* [Tarbell](http://tarbell.tribapps.com/): Python based templating system for publishing web sites.
+* [NPR's app templates](https://github.com/nprapps/app-template): Python based template for making NPR news apps.
+* [MinnPost templates](https://github.com/MinnPost/minnpost-templates): Yeoman based system for generating MinnPost projects.
 
 Other news examples:
 
 * [Propublica's nerds guides](https://github.com/propublica/guides/): A set of narrative best practices for project philosophy, application components, coding, FB/Twitter HTML tagging, and data processing.
+* [NPR best practices](https://github.com/nprapps/bestpractices): A set of best practice documents for project workflow, versioning, and coding for the NPR Visuals team.  Tied closely to their [app-template](https://github.com/nprapps/app-template).
+
+### Non-news
 
 Non-news interface examples:
 
@@ -95,9 +124,13 @@ Non-news code examples:
 * [AirBnB JS style guide](https://github.com/airbnb/javascript): Coding style guides for JS.  MinnPost has adopted these.
 * Also has a [Ruby style guide](https://github.com/airbnb/ruby)
 * [Github style guide](https://github.com/styleguide/css): Includes code style guides for CSS, HTML, JS, and Ruby.
+* [Django Python style guide](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/): Based from [PEP8](http://legacy.python.org/dev/peps/pep-0008/), a more general Python style guide.
+[SMACSS](http://smacss.com/): CSS coding style guide.
 
 Non-news design examples:
 
+* [Sunlight Labs Data Visualization guide](http://design.sunlightlabs.com/projects/Sunlight-StyleGuide-DataViz.pdf): CSS-ish guide to data visualization such as charts and maps.
+    * What looks to be a [CSS/JS implementation of this](https://github.com/sunlightlabs/chartoff).
 * [Best Buy brand identity guide](http://bbybrandidentity.com/): A set of design guidelines for brand idenitiy management.
 * [Mozilla style guide](https://www.mozilla.org/en-US/styleguide/): Design and brand style guide for Mozilla and its affiliates.
 * [Adobe brand guidelines](http://brandcenterdl.adobe.com/Corpmktg/Brandmktg/Campaign_Assets/guidelines/corporate/corporate_brand_guidelines.pdf): Specifications and philosophy for design and brand management.
@@ -117,7 +150,7 @@ Non-news copy examples:
 
 Other non-news examples:
 
-[Gov.uk service design manual](https://www.gov.uk/service-manual): Guides and instructions on how to design a service.
+* [Gov.uk service design manual](https://www.gov.uk/service-manual): Guides and instructions on how to design a service.
 
 ## References
 
@@ -129,4 +162,86 @@ Helpful links:
 * [Style guide generators](http://welchcanavan.com/styleguide-roundup/)
 * [List of various style guides](https://medium.com/@iamtec/a-list-of-style-guides-brand-guidelines-and-front-end-frameworks-e5bb62db91e5)
 * [List of brand guides](http://www.logodesignlove.com/brand-identity-style-guides)
-* [FindGuideline.es](http://findguidelin.es/): Search for brand assests from different organizations.
+* [FindGuideline.es](http://findguidelin.es/): Search for brand assets from different organizations.
+* [Github search for "style"](https://github.com/search?q=style+user%3Aminnpost+user%3Anytimes+user%3Apropublica+user%3Adatadesk+user%3Atexastribune+user%3Anewsapps+user%3Anprapps+user%3Awnyc+user%3Awashingtonpost+user%3Aguardian+user%3AopenNews+user%3Adocumentcloud+user%3Aajam+user%3Asourcefabric+user%3Aquartz+user%3Acensusreporter+user%3Aireapps+user%3Adatawrapper+user%3ATheAssociatedPress+user%3AZeitOnline+user%3Aoverview+user%3Ahuffpostdata+user%3Apoderopedia+user%3ALearningLab+user%3Aglasseyemedia+user%3Astateimpact+user%3Afreedomofpress+user%3ANUKnightLab+user%3Asuperdesk+user%3Anacion+user%3Acirlabs+user%3ABBC-News+user%3ASCPR+user%3APRX+user%3Avprnet+user%3Abuzzfeednews+user%3Amcclatchy+user%3Aregisterguard+user%3Adallasmorningnews+user%3Avoxmedia+user%3Afivethirtyeight+user%3Atheupshot+user%3Athunderdome-data+user%3Asunlightlabs+user%3Ainn+user%3Astlpublicradio+user%3AAPMG&type=Repositories&ref=advsearch&l=) for only orgs listed in CAR-Code.
+
+## Discussion
+
+### Introduction
+
+* Who I am and the like.
+* Assign note taker.
+* Goals and outline:
+    1. thing...
+
+### Feel for the room:
+
+|Question       |  Answer|
+|:------------- |-------:|
+| How many people have a style guide at their organization for any purpose? | _ |
+| How many people have written code? Any amount, including HTML/CSS? | _ |
+| How many people have worked on a style guide of any sort? | _ |
+
+### Examples
+
+Let's get the creative juices flowing and look at some examples.
+
+* [AP Stylebook](https://www.apstylebook.com/)
+    * Copy and grammar style guide example
+    * Standard for American journalism.
+    * Not open.
+* [BBC news style guide](http://www.bbc.co.uk/academy/journalism/news-style-guide)
+    * Copy and grammar style guide example that is free and public.
+    * Cross between dictionary and style guidelines.
+* [Voice and Tone (MailChimp)](http://voiceandtone.com/)
+    * Tone example.
+    * Not sure why this is a separate site when content is pretty specific to MailChimp.
+    * Talks about user feelings and reasoning for responses.
+    * Uses examples.
+* [The Dallas Morning News Graphics Stylebook](https://knightcenter.utexas.edu/mooc/file/tdmn_graphics.pdf)
+    * Example of print-ish design guide.
+    * Focuses on graphics, charts, maps, etc.
+    * Exact specifications for design and layout of graphics.
+    * Even has map of the building to help person get oriented.
+* [Chicago Tribunes NewsApps style guide](http://newsapps.github.io/bootstrap/styleguide/)
+    * Web interface example.
+    * Based/forked from Bootstrap.
+    * Stylings for near all HTML elements.
+    * Reusable components.
+    * Code-based.
+* [Bootstrap](http://getbootstrap.com/)
+    * Web interface example.
+    * Meant for general re-use.
+* [NYT Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide)
+    * Code style guide example.
+* [NPR Visuals' Best Practices](https://github.com/nprapps/bestpractices)
+    * Technical project management guide.
+    * Specifics about project structure, versioning, and coding techniques.
+    * Ties to their template.
+[Tarbell](http://tarbell.tribapps.com/)
+    * Application/templating system for publishing lightweight web apps.
+
+### Groups (maybe)
+
+Depending on number of people, break out into groups of about 7.
+
+* Number off (if lots of people), or just arbitrarily split the room.
+* Assign note taker.
+* Assign report(back)er.
+
+### Discussion points
+
+For each question, groups should discuss then report back to whole group.
+
+1. What are the types of things that have style?
+    * What could have a style guide?
+    * Try to aim broad, like "code".  But if you get in the details, that's alright too.
+1. What are the benefits and weaknesses of style guides?
+    * How would you sell the idea to your org?
+    * What are the perceived roadblocks of creating a style guide?
+1. How would you go about creating a style guide?
+    * For interface, for code, for copy?
+    * What are the parts you need?
+    * How do you keep it up to date?
+    * How do ensure others are using it?
+    * What tools or techniques would you use (or have you used)?
