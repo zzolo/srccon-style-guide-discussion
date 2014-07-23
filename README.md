@@ -169,10 +169,18 @@ Helpful links:
 
 ### Introduction
 
+* `Assign note taker.`
 * Who I am and the like.
-* Assign note taker.
+* Our recent style guide.
 * Goals and outline:
-    1. thing...
+    1. Better define a style guide
+    1. What are the benefits and weaknesses
+    1. How can we make style guides
+    1. Can we make a general style guide
+* (depending on how many people in room) Introduce each other
+    * Name
+    * Org
+    * Favorite thing to read on the internet, besides your own org.
 
 ### Feel for the room:
 
@@ -218,8 +226,9 @@ Let's get the creative juices flowing and look at some examples.
     * Technical project management guide.
     * Specifics about project structure, versioning, and coding techniques.
     * Ties to their template.
-[Tarbell](http://tarbell.tribapps.com/)
+* [Tarbell](http://tarbell.tribapps.com/)
     * Application/templating system for publishing lightweight web apps.
+    * Makes a lot of decisions for you.
 
 ### Groups (maybe)
 
