@@ -249,8 +249,11 @@ For each question, groups should discuss then report back to whole group.
     * How would you sell the idea to your org?
     * What are the perceived roadblocks of creating a style guide?
 1. How would you go about creating a style guide?
-    * For interface, for code, for copy?
+    * Pick a type of style guide.  For interface, for code, for copy.
     * What are the parts you need?
+    * Who do you need for it?
     * How do you keep it up to date?
     * How do ensure others are using it?
     * What tools or techniques would you use (or have you used)?
+* Does it make sense to make a style guide for all or multiple newsrooms?
+    * For instance, the AP Stylebook.
