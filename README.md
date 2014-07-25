@@ -170,6 +170,7 @@ Helpful links:
 ### Introduction
 
 * `Assign note taker.`
+* Gatekeeper.  If you speak more than twice, you should really think about speaking again.
 * Who I am and the like.
 * Our recent style guide.
 * Goals and outline:
