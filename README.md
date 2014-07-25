@@ -256,5 +256,6 @@ For each question, groups should discuss then report back to whole group.
     * How do you keep it up to date?
     * How do ensure others are using it?
     * What tools or techniques would you use (or have you used)?
-* Does it make sense to make a style guide for all or multiple newsrooms?
+* Can or should we make style guides to use across multiple newsrooms?
     * For instance, the AP Stylebook.
+    * Or the ProPublica Nerd's Guide
