@@ -80,6 +80,7 @@ News copy examples:
 * [Economist style guide](http://www.economist.com/styleguide/introduction): Copy and tone style guide.
 * [Guardian style guide](http://www.theguardian.com/guardian-observer-style-guide-a): Glossary style copy guide.
 * [Telegraph style book](http://www.telegraph.co.uk/topics/about-us/style-book/): Grammar and copy style guide by topic and glossary.
+* [Use With Care](http://www.freemedia.at/publications/other-publications/use-with-care.html): A glossary designed for journalists covering the Israeli-Palestinian conflict, by the International Press Institute.
 
 News code examples:
 
