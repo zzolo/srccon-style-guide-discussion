@@ -36,24 +36,6 @@ How these best practices and standards are communicated can vary as well.
 * specifications
 * generative
 
-## Pros and cons
-
-### Pros
-
-* Saves time building.
-* Makes communication smoother.
-* Provides consistency.
-* Easier to maintain whatever the style guide is for.
-* Can provide for an early testbed.
-* (CSS) Ensures most minimal amount of CSS is written.
-
-## Cons
-
-* Takes time to create.
-* Takes time to maintain.
-* May limit creativity.
-* Requires expertise.
-
 ## Examples
 
 This is not an exhaustive list.
@@ -249,13 +231,107 @@ For each question, groups should discuss then report back to whole group.
 1. What are the benefits and weaknesses of style guides?
     * How would you sell the idea to your org?
     * What are the perceived roadblocks of creating a style guide?
-1. How would you go about creating a style guide?
+1. How would you go about creating a style guide? im
     * Pick a type of style guide.  For interface, for code, for copy.
     * What are the parts you need?
     * Who do you need for it?
     * How do you keep it up to date?
     * How do ensure others are using it?
     * What tools or techniques would you use (or have you used)?
+    * How do you get buy in?
 * Can or should we make style guides to use across multiple newsrooms?
     * For instance, the AP Stylebook.
     * Or the ProPublica Nerd's Guide
+
+### Discussion notes
+
+Types of things to style?
+
+* Devops best practices.  Example: TwelveSteps
+* Code (syntax)
+* Internal communication
+    * Tools to use
+    * Tone
+    * Ensure email has a subject
+* External communication, tone
+* General computer use
+    * File sharing
+    * Password management
+* Code of Conduct
+* Design
+    * Typography
+    * Colors
+* Photography
+    * Processing
+    * Resizing
+* Advertising
+* Interaction patterns
+* Web interface
+* Copy, grammar
+
+Pros and Cons
+
+* Pros
+    * Helps with onboarding new employees or contributors to project.
+    * Less debate about stylistic things
+    * Generally saves time
+    * Provides an essential, referencable source
+    * Forces decision making
+    * Can require thinking about accessibility or other things that may be often overlooked.
+    * Helps maintain control and scope on projects
+    * Makes things that don't follow require and show importance.  Shining breakthroughs.
+    * Don't have to start from scratch
+    * Suppresses whims of superiors
+    * Requires specific understanding of why there is a need to break or go outside the style guide.
+    * Offers a good amount flexibility.  "guide" not "rules".
+    * Offers ownerhip
+        * Will be used by team that creates it
+    * Solidifies branding and identity
+    * My original list
+        * Saves time building.
+        * Makes communication smoother.
+        * Provides consistency.
+        * Easier to maintain whatever the style guide is for.
+        * Can provide for an early testbed.
+        * (CSS) Ensures most minimal amount of CSS is written.
+* Cons
+    * Requires time, commitment, and execution
+    * Requires maintenance
+    * Requires buy-in and use
+    * Might have to defend (often) against haters.
+    * Could provide a false send of security
+        * Ex. just because an app passes Apple's guidelines, doesn't make it useful or important.
+    * Can stifle innovation or creativity
+    * Requires adjustment period to use
+    * Balancing comprehesiveness and flexibility
+    * Can become stale
+    * Not always shared across organization
+        * Ex. Print department may have their own style guide, while the web department does too
+    * How to reconcile web and print style guides
+    * Overall investment
+    * Can become too authoritative, or "gospel-like"
+    * Misuse of the style guide
+    * Not having ownership can mean not using
+        * If team uses old team's style guide
+    * Can be a significant barrier to entry, specifically to contributing to a (open source) project.
+    * Can be very negative if style guide goes against larger, universal styles
+    * My original list
+        * Takes time to create.
+        * Takes time to maintain.
+        * May limit creativity.
+        * Requires expertise.
+
+Thoughts on making style guides for SRCCON/journalism community.
+
+* A guide on which (open source) tools are the best and why.
+* Tough to reconcile between standards and best practices.
+* "PEP8 for journalism"?
+    * Is there specific coding styles that are needed for journalism.
+* Best ways to write a README geared towards the journalist audience.
+* Best ways to release open source software for journalists.
+* Best ways to evaulate tools
+* Philosphies and values could be shared across the community.
+* Reconcile principle versus styles
+* What is practival for everyone as opposed to specific to a brand or identity
+* The AP Stylebook is somehwat unique/driven-by that their content is distrbuted across many organizations
+* Making audio expercial for everyone
